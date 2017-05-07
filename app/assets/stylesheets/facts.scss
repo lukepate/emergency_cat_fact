@@ -1,0 +1,64 @@
+// Place all the styles related to the facts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the compliments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#body{
+  font-family: "helvetica";
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: "#df8989";
+}
+
+button{
+  border: solid;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.header{
+  width: 100%;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: -15px;
+}
+
+#container{
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+
+}
+nav{
+  width: 80%;
+  margin-left: 140px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+    margin-left: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

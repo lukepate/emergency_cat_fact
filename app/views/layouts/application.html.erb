@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EmergencyCompliment</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <nav>
+
+  <ul>
+  <li style="float:left"><a class="active">emergency cat facts</a></li>
+  <li><a href="https://www.instagram.com/lukepate/"><span class="left">  <%=image_tag("ig.png", alt: "Example Image")%>
+</span></a></li>
+<li><a href="https://twitter.com/lukepate"><span class="left">  <%=image_tag("twitter.png", alt: "Example Image")%>
+</span></a></li>
+<li><a href="https://github.com/lukepate"><span class="left">  <%=image_tag("git.png", alt: "Example Image")%>
+</span></a></li>
+<li><a href="mailto:lukewpate@gmail.com"><span class="left">  <%=image_tag("mail.png", alt: "Example Image")%>
+</span></a></li>
+
+
+</ul>
+  </nav>
+  <body onload="myFunction" id="body">
+    <%= yield %>
+  </body>
+</html>
